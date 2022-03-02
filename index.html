@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funiro furniture</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header"> 
+        <div class="header-content-wrapper" id="header-content-wrapper">
+            <div class="container">
+                <div class="header-content">
+                    <span class="logo header__logo">Funiro.</span>
+                    <nav class="menu" id="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#" class="menu__link">Products</a>
+                                <img src="img/icons/arrow-down.svg" alt="arrow-down" class="menu-item__choice">
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu__link">Rooms</a>
+                                <img src="img/icons/arrow-down.svg" alt="arrow-down" class="menu-item__choice">
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu__link">Inspirations</a>                        
+                            </li>
+                        </ul>
+                    </nav>
+                    <form action="#" class="search" id="search">
+                        <button class="search__btn" type="submit"><img src="img/icons/search.svg" alt="search icon" class="search__btn-icon"></button>
+                        <input type="text" class="search__input" placeholder="Search for minimalist chair">                    
+                    </form>
+                    <div class="header-actions">
+                        <a href="#" class="action-search" id="action-search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75002 2.23335C4.25553 2.23335 2.23335 4.25553 2.23335 6.75002C2.23335 9.2445 4.25553 11.2667 6.75002 11.2667C7.99751 11.2667 9.12544 10.7621 9.94378 9.94378C10.7621 9.12544 11.2667 7.99751 11.2667 6.75002C11.2667 4.25553 9.2445 2.23335 6.75002 2.23335ZM0.43335 6.75002C0.43335 3.26142 3.26142 0.43335 6.75002 0.43335C10.2386 0.43335 13.0667 3.26142 13.0667 6.75002C13.0667 8.16934 12.5978 9.48028 11.8076 10.5348L15.3031 14.0303C15.6545 14.3818 15.6545 14.9516 15.3031 15.3031C14.9516 15.6545 14.3818 15.6545 14.0303 15.3031L10.5348 11.8076C9.48028 12.5978 8.16934 13.0667 6.75002 13.0667C3.26142 13.0667 0.43335 10.2386 0.43335 6.75002Z" fill="#333333"/>
+                            </svg></a>
+                        <a href="#" class="action-favourite"><img src="img/icons/favorite.svg" alt="fav icon"></a>
+                        <a href="#" class="action-cart"><img src="img/icons/cart.svg" alt="cart icon"></a>
+                        <a href="#" class="account"><img src="img/photo.png" alt="user photo"></a>
+                        <div class="menu-icon" id="menu-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </div>        
+    </header>
+    <main class="main"> 
+        <section class="main-slider" id="section-main-slider">
+            <div class="container">          
+                <div class="main-slider-content">
+                    <div class="main-slider-info">
+                        <h1 class="main__title">High-Quality Furniture Just For You</h1>
+                        <p class="main__text">Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+                        <a href="#" class="btn main__btn">Shop Now</a>
+                    </div> 
+                    <div class="slider" id="slider">
+                        <div class="slider-controls">
+                            <div class="slider-dots main-slider__dots" data-slider-dots></div>
+                            <div class="slider-buttons">
+                                <button class="slider-btn main-slider__btn" data-slider-button="prev"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.99988 1L0.999878 8L7.99988 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg></button>
+                                <button class="slider-btn main-slider__btn" data-slider-button="next"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.00012 1L8.00012 8L1.00012 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg></button>
+                            </div>
+                        </div>                    
+                        <div class="slider-line">                            
+                            <div class="slide">
+                                <img src="img/main-slider/01.jpg" alt="furniture ex1" class="slide__img">
+                                <a class="slide-info">
+                                    <p class="slide__title">Bohauss</p>
+                                    <p class="slide__description">Luxury big sofa 2-seat</p>
+                                    <p class="slide__price">Rp 17.000.000</p>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <img src="img/main-slider/02.jpg" alt="furniture ex2" class="slide__img">
+                                <a class="slide-info">
+                                    <p class="slide__title">Bohauss</p>
+                                    <p class="slide__description">Luxury big sofa 2-seat</p>
+                                    <p class="slide__price">Rp 17.000.000</p>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <img src="img/main-slider/03.jpg" alt="furniture ex3" class="slide__img">
+                                <a class="slide-info">
+                                    <p class="slide__title">Bohauss</p>
+                                    <p class="slide__description">Luxury big sofa 2-seat</p>
+                                    <p class="slide__price">Rp 17.000.000</p>
+                                </a>
+                            </div>                                                       
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>         
+        </section>
+        <div class="adv">
+            <div class="adv-grid container">
+                <div class="adv-item adv-item_1">
+                    <img src="img/advantages/01.svg" alt="cup icon" class="adv-item__img">
+                    <div class="adv-item-text">
+                        <p class="adv-item__core">High Quality</p>
+                        <p class="adv-item__description">Crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="adv-item">
+                    <img src="img/advantages/02.svg" alt="check icon" class="adv-item__img">
+                    <div class="adv-item-text">
+                        <p class="adv-item__core">Warranty Protection</p>
+                        <p class="adv-item__description">Over 2 years</p>
+                    </div>
+                </div>
+                <div class="adv-item">
+                    <img src="img/advantages/03.svg" alt="shipping icon" class="adv-item__img">
+                    <div class="adv-item-text">
+                        <p class="adv-item__core">Free Shipping</p>
+                        <p class="adv-item__description">Order over 150 $</p>
+                    </div>
+                </div>
+                <div class="adv-item">
+                    <img src="img/advantages/04.svg" alt="support icon" class="adv-item__img">
+                    <div class="adv-item-text">
+                        <p class="adv-item__core">24 / 7 Support</p>
+                        <p class="adv-item__description">Dedicated support</p>
+                    </div>
+                </div>           
+            </div>
+        </div>
+        <section class="products">
+            <div class="container">
+                <h2 class="section-title products__title">Our Products</h2>
+                <div class="products-grid" id="products-grid">
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_discount">-30%</div>
+                        <img class="products-item__img" src="img/products/01.jpg" alt="chair">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Syltherine</h4>
+                            <p class="products-item__description">Stylish cafe chair</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 2.500.000</span>
+                                <span class="products-item-price__old">Rp 3.500.000</span>
+                            </div>
+                            <div class="products-item-actions-wrapper">
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="products-item">
+                        <img class="products-item__img" src="img/products/02.jpg" alt="chair">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Leviosa</h4>
+                            <p class="products-item__description">Stylish cafe chair</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 2.500.000</span>                
+                            </div>
+                            <div class="products-item-actions-wrapper">
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_discount">-50%</div> 
+                        <img class="products-item__img" src="img/products/03.jpg" alt="sofa">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Lolito</h4>
+                            <p class="products-item__description">Luxury big sofa</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 7.000.000</span>
+                                <span class="products-item-price__old">Rp 14.000.000</span>
+                            </div>
+                            <div class="products-item-actions-wrapper">
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                                              
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_new">New</div>
+                        <img class="products-item__img" src="img/products/04.jpg" alt="fan">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Respira</h4>
+                            <p class="products-item__description">Minimalist fan</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 500.000</span>              
+                            </div>
+                            <div class="products-item-actions-wrapper">
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="products-item">
+                        <img class="products-item__img" src="img/products/05.jpg" alt="lamp">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Grifo</h4>
+                            <p class="products-item__description">Night lamp</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 1.500.000</span>            
+                            </div>
+                            <div class="products-item-actions-wrapper">
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_new">New</div> 
+                        <img class="products-item__img" src="img/products/06.jpg" alt="mug">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Muggo</h4>
+                            <p class="products-item__description">Small mug</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 150.000</span>         
+                            </div>
+                            <div class="products-item-actions-wrapper">                                  
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                                             
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_discount">-50%</div>
+                        <img class="products-item__img" src="img/products/07.jpg" alt="bed set">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Pingky</h4>
+                            <p class="products-item__description">Cute bed set</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 7.000.000</span>
+                                <span class="products-item-price__old">Rp 14.000.000</span>
+                            </div>
+                            <div class="products-item-actions-wrapper">                                 
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="products-item">
+                        <div class="products-item-label products-item-label_new">New</div>
+                        <img class="products-item__img" src="img/products/08.jpg" alt="flower pot">
+                        <div class="products-item-info">
+                            <h4 class="products-item__title">Potty</h4>
+                            <p class="products-item__description">Minimalist flower pot</p>
+                            <div class="products-item-price">
+                                <span class="products-item-price__current">Rp 500.000</span>               
+                            </div>
+                            <div class="products-item-actions-wrapper">                                   
+                                <button class="products-item__btn">Add to cart</button>
+                                <div class="products-item-actions">                                    
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 14C14.212 14 13.5 14.31 12.966 14.807L5.91 10.7C5.96 10.47 6 10.24 6 10C6 9.76 5.96 9.53 5.91 9.3L12.96 5.19C13.5 5.69 14.21 6 15 6C16.66 6 18 4.66 18 3C18 1.34 16.66 0 15 0C13.34 0 12 1.34 12 3C12 3.24 12.04 3.47 12.09 3.7L5.04 7.81C4.5 7.31 3.79 7 3 7C1.34 7 0 8.34 0 10C0 11.66 1.34 13 3 13C3.79 13 4.5 12.69 5.04 12.19L12.088 16.308C12.0317 16.5344 12.0022 16.7667 12 17C12 17.5933 12.1759 18.1734 12.5056 18.6667C12.8352 19.1601 13.3038 19.5446 13.8519 19.7716C14.4001 19.9987 15.0033 20.0581 15.5853 19.9424C16.1672 19.8266 16.7018 19.5409 17.1213 19.1213C17.5409 18.7018 17.8266 18.1672 17.9424 17.5853C18.0581 17.0033 17.9987 16.4001 17.7716 15.8519C17.5446 15.3038 17.1601 14.8352 16.6667 14.5056C16.1734 14.1759 15.5933 14 15 14Z" fill="white"/>
+                                        </svg>Share
+                                    </button>
+                                    <button class="products-item-act">
+                                        <svg class="products-item-act__icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 18.0226C7.35982 15.3882 4.76416 12.7626 3.50744 10.4739C2.22425 8.13698 2.3302 6.15452 3.05171 4.73901C4.52988 1.83903 8.73571 0.911189 11.2936 4.14628L11.9995 5.03912L12.7055 4.14632C15.2638 0.911117 19.4699 1.83909 20.948 4.73901C21.6695 6.1545 21.7754 8.13695 20.4921 10.4738C19.2353 12.7626 16.6395 15.3882 11.9996 18.0226ZM11.9996 2.24511C8.5199 -1.14383 3.33722 0.215237 1.44802 3.92158C0.419533 5.93934 0.400427 8.55527 1.92965 11.3402C3.44655 14.1028 6.47805 17.0306 11.5642 19.8418L11.9996 20.0825L12.4349 19.8419C17.5213 17.0307 20.5529 14.1028 22.0699 11.3403C23.5992 8.55529 23.5802 5.93935 22.5517 3.92158C20.6625 0.215172 15.4796 -1.14379 11.9996 2.24511Z" fill="#fff"/>
+                                        </svg>Like
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                                              
+                    </div>
+                </div>                
+                <div class="loader-container" id="loader-container">
+                    <div class="loader" id="loader"></div>
+                </div>
+                <button class="products__btn" id="products-button">Show More</button>
+            </div>
+        </section>    
+        <section class="rooms">            
+            <div class="rooms-content container">
+                <div class="rooms-info">
+                    <h2 class="rooms_title">50+ Beautiful rooms inspiration</h2>
+                    <p class="rooms__description">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                    <button class="rooms__btn btn">Explore More</button>
+                </div>
+                <div class="rooms-slider" id="rooms-slider">
+                    <div class="rooms-slider-line">
+                        <div class="rooms-slide">
+                            <img src="img/rooms/01.jpg" alt="room ex1" class="rooms__img">
+                            <div class="rooms-slide-info">
+                                <div class="rooms-slide-text">
+                                    <p class="rooms__type">01 &mdash; Bed Room</p>
+                                    <p class="rooms-slide__title">Inner Peace</p>
+                                </div>
+                                <a href="#" class="rooms-slide__link btn">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.3652 6.56003L10.3852 11.56C10.2252 11.72 10.0251 11.8 9.82515 11.8C9.62515 11.8 9.42515 11.72 9.26515 11.56C8.94515 11.24 8.94515 10.74 9.26515 10.42L12.8852 6.78003H1.20515C0.765151 6.78003 0.405151 6.42003 0.405151 5.98003C0.405151 5.54003 0.765151 5.18003 1.20515 5.18003H12.8852L9.26515 1.54004C8.94515 1.22004 8.94515 0.720034 9.26515 0.400034C9.58515 0.0800342 10.0852 0.0800342 10.4052 0.400034L15.3852 5.40003C15.6852 5.74003 15.6852 6.26003 15.3652 6.56003Z" fill="#fff"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rooms-slide">
+                            <img src="img/rooms/02.jpg" alt="room ex2" class="rooms__img">
+                            <div class="rooms-slide-info">
+                                <div class="rooms-slide-text">
+                                    <p class="rooms__type">02 &mdash; Bed Room</p>
+                                    <p class="rooms-slide__title">Inner Peace</p>
+                                </div>
+                                <a href="#" class="rooms-slide__link btn">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.3652 6.56003L10.3852 11.56C10.2252 11.72 10.0251 11.8 9.82515 11.8C9.62515 11.8 9.42515 11.72 9.26515 11.56C8.94515 11.24 8.94515 10.74 9.26515 10.42L12.8852 6.78003H1.20515C0.765151 6.78003 0.405151 6.42003 0.405151 5.98003C0.405151 5.54003 0.765151 5.18003 1.20515 5.18003H12.8852L9.26515 1.54004C8.94515 1.22004 8.94515 0.720034 9.26515 0.400034C9.58515 0.0800342 10.0852 0.0800342 10.4052 0.400034L15.3852 5.40003C15.6852 5.74003 15.6852 6.26003 15.3652 6.56003Z" fill="#fff"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rooms-slide">
+                            <img src="img/rooms/03.jpg" alt="room ex3" class="rooms__img">
+                            <div class="rooms-slide-info">
+                                <div class="rooms-slide-text">
+                                    <p class="rooms__type">03 &mdash; Bed Room</p>
+                                    <p class="rooms-slide__title">Inner Peace</p>
+                                </div>
+                                <a href="#" class="rooms-slide__link btn">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.3652 6.56003L10.3852 11.56C10.2252 11.72 10.0251 11.8 9.82515 11.8C9.62515 11.8 9.42515 11.72 9.26515 11.56C8.94515 11.24 8.94515 10.74 9.26515 10.42L12.8852 6.78003H1.20515C0.765151 6.78003 0.405151 6.42003 0.405151 5.98003C0.405151 5.54003 0.765151 5.18003 1.20515 5.18003H12.8852L9.26515 1.54004C8.94515 1.22004 8.94515 0.720034 9.26515 0.400034C9.58515 0.0800342 10.0852 0.0800342 10.4052 0.400034L15.3852 5.40003C15.6852 5.74003 15.6852 6.26003 15.3652 6.56003Z" fill="#fff"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn slider-btn_white rooms-slider__btn rooms-slider__btn_left" data-rooms-slider-button="prev"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.99988 1L0.999878 8L7.99988 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    <button class="slider-btn slider-btn_white rooms-slider__btn rooms-slider__btn_right" data-rooms-slider-button="next"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00012 1L8.00012 8L1.00012 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    <div class="slider-dots rooms-slider-dots" data-slider-dots></div>
+                </div>
+            </div>                                  
+        </section> 
+        <section class="tips">
+            <div class="tips-content">
+                <div class="container">
+                    <h2 class="section-title tips__title">Tips & Tricks</h2>
+                    <div class="tips-slider" id="tips-slider">
+                        <div class="tips-slider-line">
+                            <a href="#" class="tips-slide">
+                                <img src="img/tips/01.jpg" alt="living room img" class="tips-slide__img">
+                                <div class="tips-slide-text">
+                                    <p class="tips-slide__title">How to create a living<br>room to love</p>
+                                    <p class="tips-slide__date">20 jan 2020</p>
+                                </div>                            
+                            </a>
+                            <a href="#" class="tips-slide">
+                                <img src="img/tips/02.jpg" alt="work space img" class="tips-slide__img">
+                                <div class="tips-slide-text">
+                                    <p class="tips-slide__title">Solution for clean look working space</p>
+                                    <p class="tips-slide__date">10 jan 2020</p>
+                                </div>                            
+                            </a>
+                            <a href="#" class="tips-slide">
+                                <img src="img/tips/03.jpg" alt="kitchen img" class="tips-slide__img">
+                                <div class="tips-slide-text">
+                                    <p class="tips-slide__title">Make your cooking activity<br class="tips__br"> more fun with good setup</p>
+                                    <p class="tips-slide__date">20 jan 2020</p>
+                                </div>                            
+                            </a>
+                        </div>
+                        <div class="slider-dots tips-dots" data-slider-dots></div>
+                        <button class="slider-btn slider-btn_white tips-slider__btn tips-slider__btn_left" data-tips-slider-button="prev"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.99988 1L0.999878 8L7.99988 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                        <button class="slider-btn slider-btn_white tips-slider__btn tips-slider__btn_right" data-tips-slider-button="next"><svg class="slider-btn__icon" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00012 1L8.00012 8L1.00012 15" stroke="#E89F71" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    </div>
+                </div>
+            </div>            
+        </section>  
+        <section class="gallery" id="gallery">
+            <div class="gallery-content">
+                <p class="section-label gallery__label">Share your setup with</p>
+                <h2 class="section-title gallery__title">#FuniroFurniture</h2>
+                <div class="gallery-grid" id="gallery-grid">
+                    <div class="gallery-grid-col" data-gallery-col>
+                        <div class="gallery-grid-row gallery-grid-row_ai_fl-end">
+                            <a href="img/furniture/01.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/01.jpg" alt="room1" class="gallery__img"></a>
+                            <a href="img/furniture/02.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/02.jpg" alt="room2" class="gallery__img"></a>
+                        </div>
+                        <div class="gallery-grid-row">
+                            <a href="img/furniture/06.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/06.jpg" alt="room6" class="gallery__img"></a>
+                            <a href="img/furniture/07.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/07.jpg" alt="room7" class="gallery__img"></a>
+                        </div>
+                    </div>
+                    <div class="gallery-grid-col" data-gallery-col>
+                        <a href="img/furniture/03.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/03.jpg" alt="room3" class="gallery__img"></a>
+                    </div>
+                    <div class="gallery-grid-col gallery-grid-col_as_fl-s" data-gallery-col>
+                        <div class="gallery-grid-row gallery-grid-row_ai_fl-end">
+                            <a href="img/furniture/04.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/04.jpg" alt="room4" class="gallery__img"></a>
+                            <a href="img/furniture/05.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/05.jpg" alt="room5" class="gallery__img"></a>
+                        </div>
+                        <div class="gallery-grid-row">
+                            <a href="img/furniture/08.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/08.jpg" alt="room8" class="gallery__img"></a>
+                            <a href="img/furniture/09.jpg" class="gallery-item" data-gallery-item><img src="img/furniture/09.jpg" alt="room9" class="gallery__img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </section>
+    </main>           
+    <footer class="footer">  
+        <div class="container">
+            <div class="footer-content" id="footer-content">
+                <div class="footer-col">
+                    <div class="footer-col-content">
+                        <h3 class="footer-col__title">Funiro.</h3>
+                        <p class="footer__text">Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</p>
+                        <address class="contacts">
+                            <a href="#" class="contacts-item">
+                                <img src="img/icons/location.svg" alt="location icon" class="contacts-item__icon">Sawojajar Malang, Indonesia
+                            </a>
+                            <a href="tel:+62894563455" class="contacts-item">
+                                <img src="img/icons/phone.svg" alt="phone icon" class="contacts-item__icon">+6289 456 3455
+                            </a>
+                            <a href="#" class="contacts-item">www.funiro.com</a>
+                        </address>
+                    </div>                    
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-col__title footer-col__title_nav" data-accordion-toggler="0">Menu</h3>
+                    <div class="footer-nav" data-accordion-content>
+                        <a href="#" class="footer__link">Products</a>
+                        <a href="#" class="footer__link">Rooms</a>
+                        <a href="#" class="footer__link">Inspirations</a>
+                        <a href="#" class="footer__link">About Us</a>
+                        <a href="#" class="footer__link">Terms & Policy</a>
+                    </div>                    
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-col__title footer-col__title_nav" data-accordion-toggler="1">Account</h3>
+                    <div class="footer-nav" data-accordion-content>
+                        <a href="#" class="footer__link">My Account</a>
+                        <a href="#" class="footer__link">Checkout</a>
+                        <a href="#" class="footer__link">My Cart</a>
+                        <a href="#" class="footer__link">My catalog</a> 
+                    </div>                                       
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-col__title footer-col__title_nav" data-accordion-toggler="2">Stay Connected</h3>
+                    <div class="footer-nav" data-accordion-content>
+                        <a href="#" class="footer__link">Facebook</a>
+                        <a href="#" class="footer__link">Instagram</a>
+                        <a href="#" class="footer__link">Twitter</a> 
+                    </div>                                       
+                </div>
+                <div class="footer-col footer-col-form">
+                    <h3 class="footer-col__title">Stay Updated</h3>
+                    <form action="#" class="footer-form">
+                        <input type="email" placeholder="Enter your email" class="footer-form__input">
+                        <button type="submit" class="footer-form__submit"><img src="img/icons/send.svg" alt="paper airplane icon"></button>
+                    </form>
+                </div>
+            </div>
+        </div>                         
+    </footer>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+<script src="https://unpkg.com/glightbox@3.1.0/dist/js/glightbox.min.js" defer></script>    
+<script src="index.js" type="module"></script>
+</body>
+</html>
